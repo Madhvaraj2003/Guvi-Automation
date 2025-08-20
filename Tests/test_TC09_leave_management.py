@@ -16,11 +16,11 @@ class TestAssignLeave:
         driver, _, _ = logged_in_session
         leave = LeavePage(driver)
 
-        # --- Data (use valid employee + yyyy-mm-dd dates) ---
-        employee_name = "Orange Test"          # use a real, suggestible name from your instance
-        leave_type     = "CAN - Bereavement"      # change if your instance uses another option
-        from_date      = "2025-21-08"
-        to_date        = "2025-22-08"
+        # --- Data (use valid employee + yyyy-dd-mm dates) ---
+        employee_name = "sww test"          # use a real, suggestible name from your instance
+        leave_type     = "CAN - Bereavement"      
+        from_date      = "2025-25-09"
+        to_date        = "2025-26-09"
         comment        = "Test comment for automation"
 
         # 1) Navigate & assign
